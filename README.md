@@ -67,4 +67,4 @@ $ inv pindeps
 # Author
 First Last <you@provider.com>
 
-_Created using [bnbalsamo/cookiecutter-pypackage](https://github.com/bnbalsamo/cookiecutter-pypackage) v0.38.6_
+_Created using [bnbalsamo/cookiecutter-pypackage](https://github.com/bnbalsamo/cookiecutter-pypackage) v0.38.7_
