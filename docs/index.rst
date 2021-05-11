@@ -6,12 +6,18 @@
 Welcome to bnb-cookiecutter-example's documentation!
 =========================================================
 
+A project.
+
+.. todolist::
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-   autodoc
-
+   tutorials
+   how-tos
+   reference
+   explanations
 
 
 Indices and tables

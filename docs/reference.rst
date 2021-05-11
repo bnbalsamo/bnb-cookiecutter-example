@@ -1,5 +1,8 @@
-Auto Docs
+Reference
 =========
+
+API Reference
+-------------
 
 .. automodule:: bnb_cookiecutter_example
    :members:
