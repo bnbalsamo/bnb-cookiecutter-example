@@ -37,7 +37,8 @@ pyenv latest install -s 3.6 && \
 PYENV_LATEST_36=$(pyenv latest -p 3.6) && \
 pyenv virtualenv "$PYENV_LATEST_38" "bnb-cookiecutter-example" && \
 pyenv local "bnb-cookiecutter-example" "$PYENV_LATEST_38" "$PYENV_LATEST_37" "$PYENV_LATEST_36" && \
-pip install -e .[dev,tests,docs]
+python -m pip install -U pip wheel && \
+python -m pip install -e .[dev,tests,docs]
 ```
 
 ## Manual Configuration
@@ -67,4 +68,4 @@ $ inv pindeps
 # Author
 First Last <you@provider.com>
 
-_Created using [bnbalsamo/cookiecutter-pypackage](https://github.com/bnbalsamo/cookiecutter-pypackage) v0.42.0_
+_Created using [bnbalsamo/cookiecutter-pypackage](https://github.com/bnbalsamo/cookiecutter-pypackage) v0.43.0_
