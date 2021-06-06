@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/bnbalsamo/bnb-cookiecutter-example/workflows/CI/badge.svg?branch=master)](https://github.com/bnbalsamo/bnb-cookiecutter-example/actions)
 [![Coverage](https://codecov.io/gh/bnbalsamo/bnb-cookiecutter-example/branch/master/graph/badge.svg)](https://codecov.io/gh/bnbalsamo/bnb-cookiecutter-example/)
- [![Documentation Status](https://readthedocs.org/projects/bnb-cookiecutter-example/badge/?version=latest)](http://bnb-cookiecutter-example.readthedocs.io/en/latest/?badge=latest) 
+[![Documentation Status](https://readthedocs.org/projects/bnb-cookiecutter-example/badge/?version=latest)](http://bnb-cookiecutter-example.readthedocs.io/en/latest/?badge=latest)
 [![Updates](https://pyup.io/repos/github/bnbalsamo/bnb-cookiecutter-example/shield.svg)](https://pyup.io/repos/github/bnbalsamo/bnb-cookiecutter-example/) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
 
 A project.
@@ -68,4 +68,4 @@ $ inv pindeps
 # Author
 First Last <you@provider.com>
 
-_Created using [bnbalsamo/cookiecutter-pypackage](https://github.com/bnbalsamo/cookiecutter-pypackage) v0.43.0_
+_Created using [bnbalsamo/cookiecutter-pypackage](https://github.com/bnbalsamo/cookiecutter-pypackage) v0.44.0_

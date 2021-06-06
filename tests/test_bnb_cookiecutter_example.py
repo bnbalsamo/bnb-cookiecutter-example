@@ -6,8 +6,8 @@ import bnb_cookiecutter_example
 
 def test_version_available():
     """Test the version dunder is available on the module."""
-    x = getattr(bnb_cookiecutter_example, "__version__", None)
-    assert x is not None
+    version_attr = getattr(bnb_cookiecutter_example, "__version__", None)
+    assert version_attr is not None
 
 
 if __name__ == "__main__":
