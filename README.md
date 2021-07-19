@@ -29,7 +29,7 @@ To install + configure a development environment...
 - `cd` into the project directory
     - `cd bnb-cookiecutter-example`
 - Install the project and development dependencies with poetry
-    - `poetry install`
+    - `poetry install -E docs -E tests`
 - Activate the project's virtual environment in your current shell
     - `poetry shell`
 - Install the pre-commit hooks
@@ -56,4 +56,4 @@ $ poetry update
 # Author
 First Last <you@provider.com>
 
-_Created using [bnbalsamo/cookiecutter-pypackage](https://github.com/bnbalsamo/cookiecutter-pypackage) v0.44.1_
+_Created using [bnbalsamo/cookiecutter-pypackage](https://github.com/bnbalsamo/cookiecutter-pypackage) v0.45.0_
