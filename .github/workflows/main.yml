@@ -3,9 +3,9 @@ name: CI
 
 on:
   push:
-    branches: ["{{ cookiecutter.github_default_branch_name }}"]
+    branches: ["master"]
   pull_request:
-    branches: ["{{ cookiecutter.github_default_branch_name }}"]
+    branches: ["master"]
   workflow_dispatch:
 
 jobs:
