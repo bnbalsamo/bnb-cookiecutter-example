@@ -1,54 +1,42 @@
-# bnb-cookiecutter-example [![v0.0.1](https://img.shields.io/badge/version-0.0.1-blue.svg)](https://github.com/bnbalsamo/bnb-cookiecutter-example/releases)
+# bnb-cookiecutter-example [![v0.1.0](https://img.shields.io/badge/version-0.1.0-blue.svg)](https://github.com/bnbalsamo/bnb-cookiecutter-example/releases)
 
 [![CI](https://github.com/bnbalsamo/bnb-cookiecutter-example/workflows/CI/badge.svg?branch=master)](https://github.com/bnbalsamo/bnb-cookiecutter-example/actions)
 [![Coverage](https://codecov.io/gh/bnbalsamo/bnb-cookiecutter-example/branch/master/graph/badge.svg)](https://codecov.io/gh/bnbalsamo/bnb-cookiecutter-example/)
 [![Documentation Status](https://readthedocs.org/projects/bnb-cookiecutter-example/badge/?version=latest)](http://bnb-cookiecutter-example.readthedocs.io/en/latest/?badge=latest)
-[![Updates](https://pyup.io/repos/github/bnbalsamo/bnb-cookiecutter-example/shield.svg)](https://pyup.io/repos/github/bnbalsamo/bnb-cookiecutter-example/) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
+[![Updates](https://pyup.io/repos/github/bnbalsamo/bnb-cookiecutter-example/shield.svg)](https://pyup.io/repos/github/bnbalsamo/bnb-cookiecutter-example/)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
 
 A project.
 
 See the full documentation at https://bnb-cookiecutter-example.readthedocs.io
 
 # Installation
+
+This project is currently only installable via development tooling.
+
+- Install [poetry](https://python-poetry.org/)
 - ```$ git clone https://github.com/bnbalsamo/bnb-cookiecutter-example.git```
 - ```$ cd bnb-cookiecutter-example```
-    - If you would like to install the pinned dependencies, run ```pip install -r requirements.txt```
-- ```$ python -m pip install .```
+- ```$ poetry install . --no-dev```
 
 # Development
 
-## Quickstart
+To install + configure a development environment...
 
-To quickly install + configure a development environment...
+- Install [poetry](https://python-poetry.org/)
+- Clone the repository
+    - `git@github.com:bnbalsamo/bnb-cookiecutter-example.git`
+- `cd` into the project directory
+    - `cd bnb-cookiecutter-example`
+- Install the project and development dependencies with poetry
+    - `poetry install .`
+- Activate the project's virtual environment in your current shell
+    - `poetry shell`
+- Install the pre-commit hooks
+    - `pre-commit install --install-hooks`
 
-Install [pyenv](https://github.com/pyenv/pyenv), [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv),
-and [xxenv-latest](https://github.com/momo-lab/xxenv-latest) and copy the following into your terminal while
-in the repository root.
-
-```bash
-[[ `type -t pyenv` ]] && \
-[ -s "$PYENV_ROOT/plugins/pyenv-virtualenv" ] && \
-[ -s "$PYENV_ROOT/plugins/xxenv-latest" ] && \
-pyenv latest install -s 3.8 && \
-PYENV_LATEST_38=$(pyenv latest -p 3.8) && \
-pyenv latest install -s 3.7 && \
-PYENV_LATEST_37=$(pyenv latest -p 3.7) && \
-pyenv latest install -s 3.6 && \
-PYENV_LATEST_36=$(pyenv latest -p 3.6) && \
-pyenv virtualenv "$PYENV_LATEST_38" "bnb-cookiecutter-example" && \
-pyenv local "bnb-cookiecutter-example" "$PYENV_LATEST_38" "$PYENV_LATEST_37" "$PYENV_LATEST_36" && \
-python -m pip install -U pip wheel && \
-python -m pip install -e .[dev,tests,docs]
-```
-
-## Manual Configuration
-
-If you choose not to use the quickstart script you will need to...
-
-- Create a virtual environment
-- Install the development dependencies
-    - `pip install -e .[dev,tests,docs]`
-- Configure tox so that it can access all relevant python interpreters
+Development tasks are available via the `tasks.py` [invoke](http://www.pyinvoke.org/)
+script. After installation you can view the help via `inv --list`
 
 ## Running Tests
 ```
@@ -60,9 +48,9 @@ $ inv run.tests
 $ inv run.autoformatters
 ```
 
-## Pinning Dependencies
+## Upgrading Dependencies
 ```
-$ inv pindeps
+$ poetry update
 ```
 
 # Author

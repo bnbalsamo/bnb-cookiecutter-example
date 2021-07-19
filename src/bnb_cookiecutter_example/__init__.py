@@ -2,4 +2,4 @@
 
 __author__ = "First Last"
 __email__ = "you@provider.com"
-__version__ = "0.0.1"
+__version__ = "0.1.0"
