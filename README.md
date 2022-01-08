@@ -56,4 +56,4 @@ $ poetry update
 # Author
 First Last <you@provider.com>
 
-_Created using [bnbalsamo/cookiecutter-pypackage](https://github.com/bnbalsamo/cookiecutter-pypackage) v0.46.0_
+_Created using [bnbalsamo/cookiecutter-pypackage](https://github.com/bnbalsamo/cookiecutter-pypackage) v0.47.0_
