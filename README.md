@@ -40,12 +40,12 @@ script. After installation you can view the help via `inv --list`
 
 ## Running Tests
 ```
-$ inv run.tests
+$ inv test
 ```
 
 ## Running autoformatters
 ```
-$ inv run.autoformatters
+$ inv format
 ```
 
 ## Upgrading Dependencies
@@ -56,4 +56,4 @@ $ poetry update
 # Author
 First Last <you@provider.com>
 
-_Created using [bnbalsamo/cookiecutter-pypackage](https://github.com/bnbalsamo/cookiecutter-pypackage) v0.45.0_
+_Created using [bnbalsamo/cookiecutter-pypackage](https://github.com/bnbalsamo/cookiecutter-pypackage) v0.46.0_
